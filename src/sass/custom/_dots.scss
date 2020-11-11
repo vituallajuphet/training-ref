@@ -1,0 +1,26 @@
+.dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: $bg-color-white;
+  @include flex ( flex, space-around );
+  align-items: center;
+
+  &.dots {
+    position: relative;
+
+    &::before {
+      content: '';
+      @extend .dot;
+      position: absolute;
+      left: -7px;
+    }
+
+    &::after {
+      content: '';
+      @extend .dot;
+      position: absolute;
+      left: 7px;
+    }
+  }
+}

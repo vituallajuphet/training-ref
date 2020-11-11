@@ -1,0 +1,15 @@
+.grid {
+  flex: 1 1 100%;
+  padding: 0 1rem;
+
+  // grid__row
+  &__row {
+    margin-left: -1rem;
+    margin-right: -1rem;
+    @include flex ( flex, flex-start );
+
+    @media (max-width: 840px) {
+      display: inherit;
+    }
+  }
+}

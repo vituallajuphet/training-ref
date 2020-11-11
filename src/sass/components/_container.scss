@@ -1,0 +1,15 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+
+  // container__body
+  &__body {
+    max-width: 1366px;
+    margin: auto;
+
+    // container__body--space
+  &--space {
+    padding: 6rem 1rem;
+  }
+  }
+}

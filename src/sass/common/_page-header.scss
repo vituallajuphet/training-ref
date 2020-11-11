@@ -1,0 +1,15 @@
+.header {
+  height: 9rem;
+  padding: 0 1rem;
+  @include flex ( flex, space-between );
+  align-items: center;
+  flex: 1 100%;
+
+  // header__title
+
+  // header__menu
+  &__menu {
+    @include flex ( flex, flex-end );
+    align-items: center;
+  }
+}

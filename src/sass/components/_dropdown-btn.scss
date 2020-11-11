@@ -1,0 +1,34 @@
+.btnDropdown {
+  position: relative;
+
+  // btnDropdown__btn
+
+  // btnDropdown__menu
+  &__menu {
+    position: absolute;
+    top: 3rem;
+    right: 0;
+    min-width: 200px;
+    padding: 0.5rem 0;
+    margin-top: 0.3rem;
+    border-radius: 0.3rem;
+    background-color: $bg-color-default;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.11);
+    transition: all 2s ease-in;
+    z-index: 5;
+
+    // btnDropdown__menu--item
+    &--item {
+      height: 3rem;
+      padding: 0 1rem;
+      @include flex ( flex, space-between );
+      align-items: center;
+      list-style: none;
+      transition: all 0.15s ease-in;
+
+      &:hover {
+        background-color: $bg-color-default-on-hover;
+      }
+    }
+  }
+}
