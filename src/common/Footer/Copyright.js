@@ -3,23 +3,17 @@ import cn from 'classnames'
 import { FooterSpliter } from '../../components'
 import {ContactForm, FooterLeft} from "./index"
 
-function CopyRight(props) {
+function Copyright(props) {
   const {
-    className
+    year
   } = props
 
   return (
-      <FooterSpliter
-          name="footerSplit"
-          left = {
-            <FooterLeft class_name="left"/>
-          }
-          right = {
-            <ContactForm class_name="right"/>
-          }
-      />
+     <div className="copyright">
+         <span className="copyright__span">Copyright {year}, DNA Micro Software Inc.</span>
+     </div>
       
   )
 }
 
-export default CopyRight
+export default Copyright
