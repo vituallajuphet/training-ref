@@ -1,10 +1,12 @@
 import React from 'react'
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Header from './common/Header/Header'
+import Footer from './common/Footer/Footer'
 import Container from './components/Container'
 import { Dashboard, About, Shop } from './pages'
 import './sass/_main.scss'
 
+console.log(Footer)
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
             {switchRouterMenu()}
           </div>
         </Container>
+        <Footer />
       </Router>
     </div>
   )

@@ -14,7 +14,7 @@ function Nav(props) {
   const menuItemLists = [
     {
       id: '1',
-      label: 'Dashboard',
+      label: 'Home Page',
       exact: true,
       to: '/dashboard' && '/'
     },
@@ -26,9 +26,21 @@ function Nav(props) {
     },
     {
       id: '3',
-      label: 'Shop',
+      label: 'Blog',
       exact: true,
       to: '/shop'
+    },
+    {
+      id: '4',
+      label: 'Contact Us',
+      exact: true,
+      to: '/contact'
+    },
+    {
+      id: '5',
+      label: 'Login',
+      exact: true,
+      to: '/login'
     }
   ]
 

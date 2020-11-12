@@ -12,7 +12,7 @@ function Logo(props) {
     <div className={cn(`nav__${logo}`)}>
       <h3>
         <Link to={'/dashboard' && '/'}>
-          <code> TrainingGround </code>
+          Logo Here
         </Link>
         &nbsp;
       </h3>

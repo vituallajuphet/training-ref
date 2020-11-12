@@ -47,7 +47,11 @@ const MockData = {
       btnlabel: 'See Model',
       btnlink: 'https://www.sketchup.com/'
     }
-  ]
+  ],
+  bannerData :{
+    title : "Sample heading  title",
+    content : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut quasi voluptatibus excepturi laboriosam molestiae illo non fuga, porro eveniet dolore. Recusandae inventore, neque dicta nulla alias veniam. Quia, fugit tempora.",
+  }
 }
 
 export default MockData

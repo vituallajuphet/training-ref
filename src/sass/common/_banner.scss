@@ -1,0 +1,45 @@
+.banner {
+    padding: 0 1rem;
+    @include flex ( flex, space-between );
+    align-items: center;
+    flex: 1 100%;
+    margin-top:  3rem;
+
+    &--item {
+        width: 33%;
+        background-color: $bg-color-white;
+        color: $color-black;
+        height: 300px;
+        padding: 2rem;
+        border-radius: 5px;
+        &:hover{
+            opacity: .6;
+            cursor: pointer;
+        }
+
+        &:last-child{
+            margin-right: -1rem;
+        }
+        &:first-child{
+            margin-left: -1rem;
+        }
+    }
+}
+
+.bannerHeader{
+    text-align: center;
+    padding: 2rem 2rem 0;
+    
+
+    h2{
+        font-size: 2.2em;
+        color:$color-white;
+        margin: 0 0 2rem;
+        font-weight: bold;
+    }
+    
+    p{
+        font-size: 1.2rem;
+    }
+}
+

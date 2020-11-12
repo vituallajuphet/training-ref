@@ -5,7 +5,7 @@
   height: 6rem;
   padding: 0 3rem;
   // background-color: $bg-color-header;
-  background-color: #2b3038;
+  background-color: #222;
   border-bottom: 1px solid $border-color-default;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.11);
   @include flex ( flex, flex-start );
@@ -24,23 +24,12 @@
       font-size: 24px;
 
       a {
-        color: unset;
+        color: $color-default;
         text-decoration: none;
       }
 
       &:hover {
         color: $color-primary;
-      }
-
-      &::before {
-        content: '<';
-        display: flex;
-        color: $color-default;
-      }
-      &::after {
-        content: ' />';
-        display: flex;
-        color: $color-default;
       }
     }
   }
@@ -59,6 +48,7 @@
       align-items: center;
       border-radius: 0.25em;
       transition: all 0.15s ease-in;
+      background-color: $bg-color-white ;
 
       &:hover {
         color: $color-white;
@@ -69,7 +59,7 @@
     // nav__menu--itemLink
     &--itemLink {
       height: 3rem;
-      color: unset;
+      color: $color-black;
       padding: 0 1.25em;
       line-height: 42px;
       text-decoration: none;
@@ -78,8 +68,8 @@
       align-items: center;
 
       &.active-itemLink {
-        color: $color-white;
-        background-color: $bg-color-primary;
+        color: $color-white;  
+        background-color: $color-red;
       }
     }
   }
