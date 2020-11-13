@@ -7,9 +7,9 @@ import SlideTitle from '../../common/SlideTitle/SlideTitle'
 const About = (props) => {
   return (
     <>
-      <Slide page_title = "About Us"/>
-      <SlideTitle page_title="About Us" />
-      <PageContent content ={DummyData.about_data}/>
+      <Slide page_title = "Blog"/>
+      <SlideTitle page_title="Blog" />
+      <PageContent content ={DummyData.blog_data}/>
     </>
   )
 }

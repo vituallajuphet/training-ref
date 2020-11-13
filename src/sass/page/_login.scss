@@ -1,0 +1,52 @@
+.login__formcont{
+
+    max-width: 500px;
+    margin: 3em auto 0;
+    padding: 6rem 3rem;
+    background:$color-white;
+    box-shadow: 1px 1px 1px #222;
+
+}
+
+.login_form{
+
+    input {
+        display: block;
+        width: 100%;
+        margin: 0 0 1rem;
+        font-size: 1rem;
+        font-family: inherit;
+        padding: 1em;
+    }
+
+    button{
+        width: 100%;
+        display: block;
+        font-family: inherit;
+        background: #222;
+        border: none;
+        padding: 1rem;
+        color: #fff;
+        font-size: 1.2em;
+    }
+}
+
+.login__formcont{
+
+    h2{
+        line-height: 100%;
+        margin: 0 0 1rem;
+    }
+
+    &--footer{
+        font-size: 1rem;
+        margin: 1rem 0 0;
+        color:$color-black;
+
+        a{
+            color:$color-black;
+        }
+    }
+
+
+}

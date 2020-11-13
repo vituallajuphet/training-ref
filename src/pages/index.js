@@ -1,3 +1,5 @@
 export { default as Dashboard } from './Dashboard'
 export { default as About } from './About'
-export { default as Shop } from './Shop'
+export { default as Blog } from './Blog'
+export { default as Contact } from './Contact'
+export { default as Login } from './Login'

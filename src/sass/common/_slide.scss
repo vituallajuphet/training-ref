@@ -1,0 +1,20 @@
+.slide {
+    margin: 0 -1rem;
+    
+    &__figure{
+
+        &--img{
+            width: 100%;
+            display: block;
+        }
+        
+    }
+}
+
+.pageTitle {
+    padding: 1rem 3rem;
+    background: #423c3c;
+    margin: 0 -1rem;
+}
+
+

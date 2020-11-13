@@ -1,0 +1,1 @@
+export { default as SlideTitle } from './SlideTitle'

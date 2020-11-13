@@ -28,7 +28,7 @@ function Nav(props) {
       id: '3',
       label: 'Blog',
       exact: true,
-      to: '/shop'
+      to: '/blog'
     },
     {
       id: '4',
