@@ -1,15 +1,16 @@
 import React from 'react'
+import BlogContent from './BlogContent';
 
 function PageContent(props) {
 
     const {content}  = props;
-    console.log(content)
 
     return (
         <div className="pageContent">
            <p>{content.content}</p>
+           <BlogContent />
         </div>
-        
+
     )
 }
 

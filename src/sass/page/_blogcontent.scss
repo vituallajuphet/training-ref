@@ -1,0 +1,15 @@
+.blogContent{
+
+    @include flex ( flex, center);
+    flex-wrap: wrap;    
+
+    &__card{
+        border: 1px solid gray;
+        width: 100%;
+        margin: 0 1em 2em;
+        max-width: 356px;
+        padding: 1rem;
+    }
+
+}
+
