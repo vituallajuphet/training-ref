@@ -9,6 +9,7 @@ function PageContent(props) {
         <div className="pageContent">
            <p>{content.content}</p>
         </div>
+        
     )
 }
 
